@@ -8,25 +8,30 @@
         <h1>Universidad Tecnologica de Panamá</h1>
         
         <h2>Se crea un Formulario para Solicitud de Servicios</h2>
+
+        
         <from>  
             <label>Fecha Solicitud*: </label>
             <br>
-            <input type = "date">
+            <input type = "date" placeholder="fecha">
             <br>
+            <!-- placeholder: atributo que muestra la sugerencia del valor en el input -->
             <label>Nombre Completo*:</label>
             <br>
-            <input type="text">
+            <input type="text" placeholder="Nombre y Apellido">
             <br>
             <label>Correo Electronico*:</label>}
             <br>
-            <input type="email">
+            <input type="email" placeholder="Correo Electronico">
             <br>
             <label>Telefono*:</label>
             <br>
-            <input type="text">
+            <input type="text" placeholder="Número de Telefono">
             <br>
             <label>Barriada*:</label>
             <br>
+
+
             <select>
                 <option>Base Line</option>
                 <option>Empalme</option>
@@ -34,11 +39,13 @@
                 <option>Finca 66</option>
                 <option>Las 30</option>
             </select>
+
+
             <br>
             <!-- for se utiliza junto con elemento(<label>), la funcion de for es para 
             especificar al atributo a que elemento del formuamalio esta
             en lazada una etiqueta-->
-            <label for ="Telefono"> Servicio a contratar*:</label>
+            <label> Servicio a contratar*:</label>
             <br>
             <label for ="Telefono">Telefono</label>
             <input type="checkbox" name ="Telefono">
@@ -51,12 +58,14 @@
             <br>
             <label>Forma de Pago*:</label>
             <br>
-            <input type = "radio" name ="Efectivo">
+            <input type = "radio" name ="Efectivo
+            ">
             <label for ="Efectivo">Efectivo</label>
             <input type = "radio" name ="Tarjeta">
             <label for ="Tarjeta">Tarjeta</label>
             <br>
             <button>Guardar</button>
+
 
 
 

@@ -11,29 +11,30 @@
 
         
         <from>  
-            <label>Fecha Solicitud*: </label>
+            <label for ="fecSolicitud">Fecha Solicitud*: </label>
             <br>
-            <input type = "date" placeholder="fecha">
+            <input type = "date" id = "fecSolicitud"> 
             <br>
             <!-- placeholder: atributo que muestra la sugerencia del valor en el input -->
-            <label>Nombre Completo*:</label>
+            <label for = "nomCompleto">Nombre Completo*:</label>
             <br>
-            <input type="text" placeholder="Nombre y Apellido">
+            <!-- for hace enlace con el atribtuo id-->
+            <input type="text" id ="nomCompleto" placeholder="Nombre y Apellido">
             <br>
-            <label>Correo Electronico*:</label>}
+            <label for ="corrElectronio">Correo Electronico*:</label>}
             <br>
-            <input type="email" placeholder="Correo Electronico">
+            <input type="email" id ="corrElectronio" placeholder="Correo Electronico">
             <br>
-            <label>Telefono*:</label>
+            <label for = "telefono">Telefono*:</label>
             <br>
-            <input type="text" placeholder="Número de Telefono">
+            <input type="text" id ="telefono"placeholder="Número de Telefono">
             <br>
-            <label>Barriada*:</label>
+            <label for = "barriada">Barriada*:</label>
             <br>
 
 
-            <select>
-                <option>Base Line</option>
+            <select id="barriada">
+                <option >Base Line</option>
                 <option>Empalme</option>
                 <option>Finca 13</option>
                 <option>Finca 66</option>
@@ -47,22 +48,21 @@
             en lazada una etiqueta-->
             <label> Servicio a contratar*:</label>
             <br>
-            <label for ="Telefono">Telefono</label>
-            <input type="checkbox" name ="Telefono">
+            <label for ="servTelefono">Telefono</label>
+            <input type="checkbox" id="servTelefono">
             <br>
-            <label for ="TV"> TV </label>
-            <input type = "checkbox" name = "TV">
+            <label for ="servTv"> TV </label>
+            <input type = "checkbox" id="servTv">
             <br>
-            <label for = "Internet">Internet</label>
-            <input type = "checkbox" name ="Internet">
+            <label for = "servInternet">Internet</label>
+            <input type = "checkbox" id="servInternet">
             <br>
             <label>Forma de Pago*:</label>
             <br>
-            <input type = "radio" name ="Efectivo
-            ">
-            <label for ="Efectivo">Efectivo</label>
-            <input type = "radio" name ="Tarjeta">
-            <label for ="Tarjeta">Tarjeta</label>
+            <input type = "radio" id="pagEfectivo" >
+            <label for ="pagEfectivo">Efectivo</label>
+            <input type = "radio" id ="pagTarjeta">
+            <label for ="pagTarjeta">Tarjeta</label>
             <br>
             <button>Guardar</button>
 

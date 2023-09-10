@@ -13,13 +13,13 @@
         <from>  
             <label for ="fecSolicitud">Fecha Solicitud*: </label>
             <br>
-            <input type = "date" id = "fecSolicitud"> 
+            <input type = "date" id = "fecSolicitud" name="Solicitud"> 
             <br>
             <!-- placeholder: atributo que muestra la sugerencia del valor en el input -->
             <label for = "nomCompleto">Nombre Completo*:</label>
             <br>
             <!-- for hace enlace con el atribtuo id-->
-            <input type="text" id ="nomCompleto" placeholder="Nombre y Apellido">
+            <input type="text" id ="nomCompleto" placeholder="Nombre y Apellido" name = nombre>
             <br>
             <label for ="corrElectronio">Correo Electronico*:</label>}
             <br>
@@ -27,14 +27,15 @@
             <br>
             <label for = "telefono">Telefono*:</label>
             <br>
-            <input type="text" id ="telefono"placeholder="Número de Telefono">
+            <input type="text" id ="telefono" name ="tel" placeholder="Número de Telefono">
             <br>
+            <!-- El atributo name le da el nombre el elemento vacio-->
             <label for = "barriada">Barriada*:</label>
             <br>
 
 
-            <select id="barriada">
-                <option >Base Line</option>
+            <select name = "barr" id="barriada">
+                <option>Base Line</option>
                 <option>Empalme</option>
                 <option>Finca 13</option>
                 <option>Finca 66</option>
@@ -49,19 +50,19 @@
             <label> Servicio a contratar*:</label>
             <br>
             <label for ="servTelefono">Telefono</label>
-            <input type="checkbox" id="servTelefono">
+            <input type="checkbox" id="servTelefono" name = "telfser">
             <br>
             <label for ="servTv"> TV </label>
-            <input type = "checkbox" id="servTv">
+            <input type = "checkbox" id="servTv" name = "tvser">
             <br>
             <label for = "servInternet">Internet</label>
-            <input type = "checkbox" id="servInternet">
+            <input type = "checkbox" id="servInternet" name = "interser">
             <br>
             <label>Forma de Pago*:</label>
             <br>
-            <input type = "radio" id="pagEfectivo" >
+            <input type = "radio" id="pagEfectivo" name = "efect">
             <label for ="pagEfectivo">Efectivo</label>
-            <input type = "radio" id ="pagTarjeta">
+            <input type = "radio" id ="pagTarjeta" name = "tarj">
             <label for ="pagTarjeta">Tarjeta</label>
             <br>
             <button>Guardar</button>
